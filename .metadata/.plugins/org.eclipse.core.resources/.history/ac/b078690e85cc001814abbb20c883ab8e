@@ -1,0 +1,85 @@
+package com.restapi.hello;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class Student {
+	private String RollNo;
+	private String name;
+	private int phy;
+	private int chem;
+	private int maths;
+	
+	Student(String roll,String name,int phy,int chem,int maths){
+		this.RollNo = roll;
+		this.name = name;
+		this.phy = phy;
+		this.chem = chem;
+		this.maths = maths;
+	}
+	/**
+	 * @return the phy
+	 */
+	public int getPhy() {
+		return phy;
+	}
+	/**
+	 * @param phy the phy to set
+	 */
+	public void setPhy(int phy) {
+		this.phy = phy;
+	}
+	/**
+	 * @return the chem
+	 */
+	public int getChem() {
+		return chem;
+	}
+	/**
+	 * @param chem the chem to set
+	 */
+	public void setChem(int chem) {
+		this.chem = chem;
+	}
+	/**
+	 * @return the maths
+	 */
+	public int getMaths() {
+		return maths;
+	}
+	/**
+	 * @param maths the maths to set
+	 */
+	public void setMaths(int maths) {
+		this.maths = maths;
+	}
+	/**
+	 * @return the rollNo
+	 */
+	public String getRollNo() {
+		return RollNo;
+	}
+	/**
+	 * @param rollNo the rollNo to set
+	 */
+	public void setRollNo(String rollNo) {
+		RollNo = rollNo;
+	}
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public int calTotalMarks() {
+		return (this.phy+this.chem+this.maths);
+	}
+	
+}

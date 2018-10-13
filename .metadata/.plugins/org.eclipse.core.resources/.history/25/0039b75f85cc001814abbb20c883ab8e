@@ -1,0 +1,30 @@
+package com.restapi.hello;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+@Path("students")
+public class StudentResource {
+	
+	
+	
+	@GET
+	@Path("students/{roll}")
+	@Produces(MediaType.APPLICATION_XML)
+	public void getStudent(@PathParam("roll") String roll) throws Exception {
+		JDBCConnection serve = new JDBCConnection();
+		serve.connect();
+		Student s = serve.getDetails(roll);
+		if(s==null) {
+			System.out.println("Student not found");
+			return;
+		}
+		serve.closeConnection();
+		System.out.println(s.getTotalMarks());
+	}
+	
+	
+}

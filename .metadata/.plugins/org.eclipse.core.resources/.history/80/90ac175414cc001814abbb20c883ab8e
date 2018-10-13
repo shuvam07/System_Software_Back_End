@@ -1,0 +1,8 @@
+package com.restapi.hello;
+
+import javax.ws.rs.Path;
+
+@Path("students")
+public class StudentResource {
+
+}
