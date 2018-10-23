@@ -5,7 +5,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Student {
 	
-	private String RollNo;
+	private String rollNo;
 	private String name;
 	private float phy;
 	private float chem;
@@ -15,13 +15,13 @@ public class Student {
 	 * @return the rollNo
 	 */
 	public String getRollNo() {
-		return RollNo;
+		return rollNo;
 	}
 	/**
 	 * @param rollNo the rollNo to set
 	 */
 	public void setRollNo(String rollNo) {
-		RollNo = rollNo;
+		this.rollNo = rollNo;
 	}
 	/**
 	 * @return the name
@@ -76,6 +76,14 @@ public class Student {
 	 */
 	public float getTotalMarks() {
 		return totalMarks;
+	}
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Student [RollNo=" + rollNo + ", name=" + name + ", phy=" + phy + ", chem=" + chem + ", maths=" + maths
+				+ ", totalMarks=" + totalMarks + "]";
 	}
 	/**
 	 * @param totalMarks the totalMarks to set

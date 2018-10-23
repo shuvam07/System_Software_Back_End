@@ -1,0 +1,32 @@
+
+Oct 21, 2018 14:55:58.36 NEW SESSION
+Oct 21, 2018 14:55:58.36 [Parent 3916, Gecko_IOThread] WARNING: pipe error (199): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Oct 21, 2018 17:26:57.98 ExceptionHandler::GenerateDump cloned child 11367
+Oct 21, 2018 17:27:07.57 ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+Oct 21, 2018 17:27:07.57 ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+Oct 21, 2018 18:53:57.00 ExceptionHandler::GenerateDump cloned child 18969
+Oct 21, 2018 18:53:57.03 ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+Oct 21, 2018 18:53:57.03 ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+Oct 21, 2018 18:53:59.03 ExceptionHandler::GenerateDump cloned child 18970
+Oct 21, 2018 18:53:59.03 ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+Oct 21, 2018 18:53:59.03 ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+Oct 21, 2018 18:54:03.51 [Parent 3916, Gecko_IOThread] WARNING: waitpid failed pid:4782 errno:10: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/base/process_util_posix.cc, line 256
+Oct 22, 2018 01:34:00.95 IPDL protocol error: Handler returned error code!
+Oct 22, 2018 01:34:00.96 
+Oct 22, 2018 01:34:00.96 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+Oct 22, 2018 01:34:00.96 
+Oct 22, 2018 01:34:00.96 IPDL protocol error: Handler returned error code!
+Oct 22, 2018 01:34:00.96 
+Oct 22, 2018 01:34:00.96 ###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+Oct 22, 2018 01:34:00.96 
+Oct 22, 2018 01:39:15.54 ExceptionHandler::GenerateDump cloned child 7307
+Oct 22, 2018 01:39:15.56 ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+Oct 22, 2018 01:39:15.56 ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+Oct 22, 2018 02:07:03.09 [Parent 9289, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Oct 22, 2018 02:50:35.04 [Parent 12127, Gecko_IOThread] WARNING: pipe error (45): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Oct 22, 2018 02:50:35.05 [Parent 12127, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-E5azaL/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+Oct 23, 2018 24:07:10.56 NEW SESSION
+Oct 23, 2018 24:07:10.73 
+Oct 23, 2018 24:07:10.90 ###!!! [Parent][MessageChannel] Error: (msgtype=0x170080,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Oct 23, 2018 24:07:10.90 

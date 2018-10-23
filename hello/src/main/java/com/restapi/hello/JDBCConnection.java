@@ -3,7 +3,10 @@ package com.restapi.hello;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
+
+import org.json.JSONObject;
 
 public class JDBCConnection {
 	
@@ -19,6 +22,10 @@ public class JDBCConnection {
 		this.st = con.createStatement();
 	}
 	
+	public void addDetails() {
+		
+	}
+	
 	public Student getDetails(String roll) throws Exception {
 		String query = "select * from student_info where roll = '"+roll+"'";
 		ResultSet rs = st.executeQuery(query);
@@ -32,11 +39,16 @@ public class JDBCConnection {
 			s.setChem(rs.getFloat(4));
 			s.setMaths(rs.getFloat(5));
 			s.setTotalMarks(rs.getFloat(3)+rs.getFloat(4)+rs.getFloat(5));
-			
 			return s;
 		}
 		else
 			return null;
+	}
+	
+	public void addDetails(Student s) throws SQLException {
+		String query = "Insert into student_info VALUES(\""+s.getRollNo()+"\",\""+s.getName()+"\","+s.getPhy()+","+s.getChem()+","+s.getMaths()+");";
+		System.out.println(query);
+		st.executeUpdate(query);
 	}
 	
 	public void closeConnection() throws Exception {
