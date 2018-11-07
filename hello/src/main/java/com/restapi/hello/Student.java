@@ -5,22 +5,36 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Student {
 	
-	private String rollNo;
+	private int rollNo;
 	private String name;
 	private float phy;
 	private float chem;
 	private float maths;
 	private float totalMarks;
+	private String imgUrl;
+	private String grade;
+	/**
+	 * @return the grade
+	 */
+	public String getGrade() {
+		return grade;
+	}
+	/**
+	 * @param grade the grade to set
+	 */
+	public void setGrade(String grade) {
+		this.grade = grade;
+	}
 	/**
 	 * @return the rollNo
 	 */
-	public String getRollNo() {
+	public int getRollNo() {
 		return rollNo;
 	}
 	/**
 	 * @param rollNo the rollNo to set
 	 */
-	public void setRollNo(String rollNo) {
+	public void setRollNo(int rollNo) {
 		this.rollNo = rollNo;
 	}
 	/**
@@ -82,14 +96,21 @@ public class Student {
 	 */
 	@Override
 	public String toString() {
-		return "Student [RollNo=" + rollNo + ", name=" + name + ", phy=" + phy + ", chem=" + chem + ", maths=" + maths
-				+ ", totalMarks=" + totalMarks + "]";
+		return "Student [rollNo=" + rollNo + ", name=" + name + ", phy=" + phy + ", chem=" + chem + ", maths=" + maths
+				+ ", totalMarks=" + totalMarks + ", imgUrl=" + imgUrl + "]";
 	}
+	
 	/**
 	 * @param totalMarks the totalMarks to set
 	 */
 	public void setTotalMarks(float totalMarks) {
 		this.totalMarks = totalMarks;
+	}
+	public String getImgUrl() {
+		return imgUrl;
+	}
+	public void setImgUrl(String imgUrl) {
+		this.imgUrl = imgUrl;
 	}
 	
 	

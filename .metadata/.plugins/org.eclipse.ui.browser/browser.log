@@ -30,3 +30,65 @@ Oct 23, 2018 24:07:10.56 NEW SESSION
 Oct 23, 2018 24:07:10.73 
 Oct 23, 2018 24:07:10.90 ###!!! [Parent][MessageChannel] Error: (msgtype=0x170080,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
 Oct 23, 2018 24:07:10.90 
+
+Nov 06, 2018 10:23:11.92 NEW SESSION
+Nov 06, 2018 10:23:11.92 
+Nov 06, 2018 10:23:11.93 ###!!! [Parent][MessageChannel] Error: (msgtype=0x160011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+Nov 06, 2018 10:23:11.93 
+Nov 06, 2018 10:23:11.93 
+Nov 06, 2018 10:23:11.94 ###!!! [Parent][MessageChannel] Error: (msgtype=0x160011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+Nov 06, 2018 10:23:11.94 
+Nov 06, 2018 14:51:03.08 
+Nov 06, 2018 14:51:03.11 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Nov 06, 2018 14:51:03.11 
+
+Nov 06, 2018 17:03:06.84 NEW SESSION
+Nov 06, 2018 17:03:06.84 [Parent 13287, Gecko_IOThread] WARNING: pipe error (79): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+Nov 06, 2018 20:14:21.23 ExceptionHandler::GenerateDump cloned child 18656
+Nov 06, 2018 20:14:22.01 ExceptionHandler::SendContinueSignalToChild sent continue signal to child
+Nov 06, 2018 20:14:22.03 ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+Nov 06, 2018 20:14:24.16 
+Nov 06, 2018 20:14:24.17 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Nov 06, 2018 20:14:24.17 
+Nov 06, 2018 20:14:24.17 
+Nov 06, 2018 20:14:24.17 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Nov 06, 2018 20:14:24.17 
+Nov 06, 2018 20:14:24.17 
+Nov 06, 2018 20:14:24.17 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Nov 06, 2018 20:14:24.21 
+Nov 06, 2018 20:14:24.22 
+Nov 06, 2018 20:14:24.22 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Nov 06, 2018 20:14:24.22 
+Nov 06, 2018 20:14:26.52 
+Nov 06, 2018 20:14:26.53 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Nov 06, 2018 20:14:26.53 
+Nov 06, 2018 20:14:26.55 
+Nov 06, 2018 20:14:26.55 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Nov 06, 2018 20:14:26.55 
+Nov 06, 2018 20:14:26.55 
+Nov 06, 2018 20:14:26.56 ###!!! [Parent][MessageChannel] Error: (msgtype=0x300067,name=PContent::Msg_SuspendInputEventQueue) Channel error: cannot send/recv
+Nov 06, 2018 20:14:26.56 
+Nov 06, 2018 20:14:26.56 
+Nov 06, 2018 20:14:26.56 ###!!! [Parent][MessageChannel] Error: (msgtype=0x300065,name=PContent::Msg_FlushInputEventQueue) Channel error: cannot send/recv
+Nov 06, 2018 20:14:26.56 
+Nov 06, 2018 20:14:26.86 
+Nov 06, 2018 20:14:27.11 ###!!! [Parent][MessageChannel] Error: (msgtype=0x300066,name=PContent::Msg_ResumeInputEventQueue) Channel error: cannot send/recv
+Nov 06, 2018 20:14:27.11 
+Nov 06, 2018 20:14:27.11 
+Nov 06, 2018 20:14:27.11 ###!!! [Parent][MessageChannel] Error: (msgtype=0x300045,name=PContent::Msg_Shutdown) Channel error: cannot send/recv
+Nov 06, 2018 20:14:27.14 
+Nov 06, 2018 20:14:27.15 
+Nov 06, 2018 20:14:27.15 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Nov 06, 2018 20:14:27.15 
+Nov 06, 2018 20:14:27.15 
+Nov 06, 2018 20:14:27.15 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Nov 06, 2018 20:14:27.15 
+Nov 06, 2018 20:14:27.15 
+Nov 06, 2018 20:14:27.15 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Nov 06, 2018 20:14:27.15 
+Nov 06, 2018 20:14:27.22 
+Nov 06, 2018 20:14:27.23 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Nov 06, 2018 20:14:27.23 
+Nov 06, 2018 20:14:27.24 
+Nov 06, 2018 20:14:27.25 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+Nov 06, 2018 20:14:27.25 
