@@ -1,0 +1,14 @@
+1)Install required eclipse version with appropriate tomcat version.
+2)Import the project sent into the workspace and update the maven to download the dependencies automatically.
+3)Install appropriate mysql-server and configure such a way that it's root password should be '' or change the password in all rest service files for all database connections.
+4)Image path is hard coded hence you need to change the image path according to your laptop/desktop's configuration hence you need to change the path in 2-3 places in rest apis.So go through all rest apis file which are no more than 4(according to your requirenment only package "core" has all files) and change the image path.
+5) Now we can run the project simply on tomcat,add the jar files according to requirenments and everything should work. 
+
+Notes:
+Just Go through all the source code, you will find all the required rest api files are in package named as "core".
+You may need super user privileges(if running on ubuntu) so run eclipse in superuser mode(search on internet) ONLY IN CASE IF REQUIRED.
+
+Hope it Helps ! Ask Doubts Anytime 
+
+Cheers :)  
+

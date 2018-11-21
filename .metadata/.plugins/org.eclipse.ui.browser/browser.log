@@ -92,3 +92,193 @@ Nov 06, 2018 20:14:27.23
 Nov 06, 2018 20:14:27.24 
 Nov 06, 2018 20:14:27.25 ###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
 Nov 06, 2018 20:14:27.25 
+
+Nov 08, 2018 19:33:02.22 NEW SESSION
+Nov 08, 2018 19:33:02.40 [Child 23959, MediaPlayback #3] WARNING: Decoder=7fb572af2280 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-j7tNrI/firefox-63.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3429
+Nov 08, 2018 19:33:02.44 [Child 23959, MediaPlayback #3] WARNING: Decoder=7fb572af2280 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-j7tNrI/firefox-63.0+build2/dom/media/MediaDecoderStateMachine.cpp, line 3429
+
+Nov 17, 2018 11:46:36.26 NEW SESSION
+Nov 17, 2018 11:46:36.26 [Parent 16100, Gecko_IOThread] WARNING: pipe error (77): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+Nov 17, 2018 11:46:36.39 [Parent 16100, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+Nov 17, 2018 11:46:36.53 [Parent 16100, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+
+Nov 19, 2018 22:26:31.62 NEW SESSION
+Nov 19, 2018 22:26:31.62 [9109:9109:1119/222630.765202:ERROR:background_mode_manager_aura.cc(12)] Not implemented reached in virtual void BackgroundModeManager::EnableLaunchOnStartup(bool)
+Nov 19, 2018 22:26:35.51 [1:1:1119/222635.512377:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 19, 2018 22:26:40.00 [9109:9146:1119/222640.006455:ERROR:simple_index_file_posix.cc(61)] Could not get file info for /home/shuvambosana/.cache/google-chrome/Default/Cache/5e439d8f8865179a_0
+Nov 19, 2018 22:26:42.08 [1:1:1119/222642.087674:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 19, 2018 22:26:44.13 [1:1:1119/222644.137168:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 19, 2018 22:26:44.42 [1:1:1119/222644.423971:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 19, 2018 22:26:44.62 [1:1:1119/222644.621388:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 19, 2018 22:27:18.80 [1:1:1119/222718.803718:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 19, 2018 22:28:11.70 [1:1:1119/222811.700871:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 19, 2018 22:28:12.72 [1:1:1119/222812.724499:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 19, 2018 22:28:13.02 [1:1:1119/222813.025213:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 19, 2018 22:31:31.61 [9109:9109:1119/223131.613068:ERROR:CONSOLE(6)] "Uncaught ReferenceError: gbar is not defined", source: https://clients5.google.com/pagead/drt/dn/ (6)
+Nov 19, 2018 22:45:44.99 [9109:9129:1119/224544.991663:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:45:45.00 [9109:9129:1119/224545.001486:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:46:04.62 [9109:9129:1119/224604.624282:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:46:04.63 [9109:9129:1119/224604.639185:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:46:13.00 [9153:9153:1119/224613.002315:ERROR:gles2_cmd_decoder.cc(18047)] [.BrowserCompositor-0x1d7b9f99000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+Nov 19, 2018 22:46:13.00 [9153:9153:1119/224613.002867:ERROR:gles2_cmd_decoder.cc(10168)] [.BrowserCompositor-0x1d7b9f99000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+Nov 19, 2018 22:46:13.00 [9153:9153:1119/224613.003256:ERROR:gles2_cmd_decoder.cc(18047)] [.BrowserCompositor-0x1d7b9f99000]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+Nov 19, 2018 22:46:13.00 [9153:9153:1119/224613.003584:ERROR:gles2_cmd_decoder.cc(10168)] [.BrowserCompositor-0x1d7b9f99000]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+Nov 19, 2018 22:49:51.62 Created new window in existing browser session.
+Nov 19, 2018 22:50:34.82 [9109:9129:1119/225034.829205:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:50:34.83 [9109:9129:1119/225034.831627:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:51:31.83 [9109:9129:1119/225131.837661:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:51:31.84 [9109:9129:1119/225131.840665:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:51:36.13 [9109:9129:1119/225136.137123:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:51:36.44 [9109:9129:1119/225136.443797:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:52:02.71 [9109:9129:1119/225202.716443:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:52:02.92 [9109:9129:1119/225202.925161:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:53:03.13 [9109:9129:1119/225303.129909:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:53:03.39 [9109:9129:1119/225303.399045:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:53:37.88 [9109:9129:1119/225337.884110:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:53:38.18 [9109:9129:1119/225338.183870:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:53:59.61 [9109:9129:1119/225359.611216:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:53:59.82 [9109:9129:1119/225359.826803:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:54:23.71 [9109:9129:1119/225423.715672:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:54:23.93 [9109:9129:1119/225423.939330:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:54:44.55 [9109:9129:1119/225444.558429:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:54:44.78 [9109:9129:1119/225444.779916:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:57:12.26 [9109:9129:1119/225712.265649:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:57:12.60 [9109:9129:1119/225712.603932:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:57:48.21 Created new window in existing browser session.
+Nov 19, 2018 22:57:57.91 [9109:9129:1119/225757.912733:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:57:59.28 [9109:9129:1119/225759.280162:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:58:02.66 [9109:9129:1119/225802.665761:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:58:02.83 [9109:9129:1119/225802.839383:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:59:06.76 [9109:9129:1119/225906.768435:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 22:59:07.17 [9109:9129:1119/225907.177952:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:00:00.42 [9109:9129:1119/230000.424463:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:00:00.72 [9109:9129:1119/230000.722150:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:00:26.59 [9109:9129:1119/230026.592694:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:00:26.78 [9109:9129:1119/230026.783276:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:01:00.42 [9109:9129:1119/230100.421599:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:01:01.05 [9109:9129:1119/230101.058658:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:01:46.56 [9109:9129:1119/230146.560049:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:01:47.08 [9109:9129:1119/230147.083519:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:02:10.29 [9109:9129:1119/230210.294139:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:02:10.58 [9109:9129:1119/230210.583730:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:02:18.79 [9109:9129:1119/230218.794462:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:02:19.02 [9109:9129:1119/230219.028210:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:03:40.85 [9109:9129:1119/230340.857921:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:03:41.25 [9109:9129:1119/230341.254127:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:04:56.34 [9109:9129:1119/230456.344086:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:04:56.80 [9109:9129:1119/230456.803126:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:05:06.46 [9109:9129:1119/230506.464202:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:05:07.55 [9109:9129:1119/230507.557298:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:05:10.92 [9109:9129:1119/230510.925224:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:05:11.16 [9109:9129:1119/230511.162559:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:07:08.42 [9109:9129:1119/230708.426710:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:07:09.81 [9109:9129:1119/230709.817607:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:07:13.47 [9109:9129:1119/230713.475496:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:07:13.72 [9109:9129:1119/230713.728347:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:07:15.78 [9109:9129:1119/230715.787680:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:07:16.22 [9109:9129:1119/230716.228623:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:08:38.42 [9109:9129:1119/230838.426147:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:08:38.74 [9109:9129:1119/230838.744201:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:09:36.05 Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Nov 19, 2018 23:10:16.77 [9109:9129:1119/231016.776808:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:18.09 [9109:9129:1119/231018.090632:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:20.05 [9109:9129:1119/231020.050667:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:20.30 [9109:9129:1119/231020.303131:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:27.01 [9109:9129:1119/231027.016967:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:27.43 [9109:9129:1119/231027.439671:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:30.58 [9109:9129:1119/231030.584665:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:30.83 [9109:9129:1119/231030.835479:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:46.11 [9109:9129:1119/231046.114324:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:46.50 [9109:9129:1119/231046.500113:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:48.14 [9109:9129:1119/231048.141793:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:48.32 [9109:9129:1119/231048.322204:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:53.74 [9109:9129:1119/231053.746983:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:54.09 [9109:9129:1119/231054.095780:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:55.92 [9109:9129:1119/231055.928393:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:10:56.18 [9109:9129:1119/231056.180944:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:11:19.42 [9109:9129:1119/231119.425436:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:11:19.79 [9109:9129:1119/231119.799130:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:11:54.93 [9109:9129:1119/231154.934733:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:11:55.14 [9109:9129:1119/231155.143410:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:13:04.06 Gtk-Message: GtkDialog mapped without a transient parent. This is discouraged.
+Nov 19, 2018 23:13:16.61 [9109:9129:1119/231316.615635:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:13:17.63 [9109:9129:1119/231317.634311:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:13:19.25 [9109:9129:1119/231319.253455:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:13:19.53 [9109:9129:1119/231319.530081:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:13:27.03 [9109:9129:1119/231327.039128:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:13:27.36 [9109:9129:1119/231327.365651:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:13:30.25 [9109:9129:1119/231330.256823:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:13:30.50 [9109:9129:1119/231330.507126:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:15:35.53 [9109:9129:1119/231535.539504:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js.mapfrom unknown origin. Could not find user data for request.
+Nov 19, 2018 23:15:35.86 [9109:9129:1119/231535.861368:ERROR:extension_protocols.cc(565)] Allowing load of chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.postload.js.mapfrom unknown origin. Could not find user data for request.
+
+Nov 20, 2018 02:04:04.77 NEW SESSION
+Nov 20, 2018 02:04:04.77 [3296:3296:1120/020404.771222:ERROR:background_mode_manager_aura.cc(12)] Not implemented reached in virtual void BackgroundModeManager::EnableLaunchOnStartup(bool)
+Nov 20, 2018 02:04:12.23 [1:1:1120/020412.230734:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 20, 2018 02:04:13.30 [1:1:1120/020413.304937:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 20, 2018 02:04:14.18 [1:1:1120/020414.180654:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 20, 2018 02:04:14.67 [1:1:1120/020414.679223:ERROR:webthread_impl_for_utility_thread.cc(19)] Not implemented reached in virtual blink::ThreadScheduler *blink::scheduler::WebThreadImplForUtilityThread::Scheduler() const
+Nov 20, 2018 02:29:42.57 [3296:3296:1120/022942.570269:ERROR:CONSOLE(6)] "Uncaught ReferenceError: gbar is not defined", source: https://clients5.google.com/pagead/drt/dn/ (6)
+Nov 20, 2018 02:29:46.00 [3296:3296:1120/022946.000867:ERROR:CONSOLE(6)] "Uncaught ReferenceError: gbar is not defined", source: https://clients5.google.com/pagead/drt/dn/ (6)
+Nov 20, 2018 02:30:22.95 [3339:3339:1120/023022.950007:ERROR:gles2_cmd_decoder.cc(18047)] [.BrowserCompositor-0x19716a3d0c00]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+Nov 20, 2018 02:30:22.95 [3339:3339:1120/023022.950360:ERROR:gles2_cmd_decoder.cc(18047)] [.BrowserCompositor-0x19716a3d0c00]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+Nov 20, 2018 02:30:22.95 [3339:3339:1120/023022.950626:ERROR:gles2_cmd_decoder.cc(10168)] [.BrowserCompositor-0x19716a3d0c00]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+Nov 20, 2018 02:30:22.95 [3339:3339:1120/023022.950841:ERROR:gles2_cmd_decoder.cc(10168)] [.BrowserCompositor-0x19716a3d0c00]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+Nov 20, 2018 02:30:22.96 [3339:3339:1120/023022.964847:ERROR:gles2_cmd_decoder.cc(10168)] [.BrowserCompositor-0x19716a3d0c00]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+Nov 20, 2018 02:30:22.96 [3339:3339:1120/023022.964945:ERROR:gles2_cmd_decoder.cc(10168)] [.BrowserCompositor-0x19716a3d0c00]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+Nov 20, 2018 02:31:15.07 [3339:3339:1120/023115.078969:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x1938d2536e00]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Nov 20, 2018 02:31:15.10 [3339:3339:1120/023115.107641:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x1938d278b500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Nov 20, 2018 02:31:16.33 [3339:3339:1120/023116.330303:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x1938d2655500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Nov 20, 2018 02:31:16.54 [3339:3339:1120/023116.547721:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:16.70 [3339:3339:1120/023116.702601:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.33 [3339:3339:1120/023117.337120:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.33 [3339:3339:1120/023117.337270:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.37 [3339:3339:1120/023117.369838:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.37 [3339:3339:1120/023117.370663:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.38 [3339:3339:1120/023117.384282:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.38 [3339:3339:1120/023117.386699:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.39 [3339:3339:1120/023117.391264:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.39 [3339:3339:1120/023117.391563:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.40 [3339:3339:1120/023117.407461:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.41 [3339:3339:1120/023117.407666:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.42 [3339:3339:1120/023117.421937:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.42 [3339:3339:1120/023117.422840:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.44 [3339:3339:1120/023117.440486:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.44 [3339:3339:1120/023117.440998:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.45 [3339:3339:1120/023117.454946:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.45 [3339:3339:1120/023117.455505:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.47 [3339:3339:1120/023117.472845:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:17.47 [3339:3339:1120/023117.473196:ERROR:gles2_cmd_decoder.cc(10162)] [.WebGL-0x1938d2655500]RENDER WARNING: there is no texture bound to the unit 1
+Nov 20, 2018 02:31:26.63 [3339:3339:1120/023126.632180:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x1938d3561500]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Nov 20, 2018 02:34:24.55 [3339:3339:1120/023424.555878:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x1938d278b100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Nov 20, 2018 02:34:29.02 [3339:3339:1120/023429.029050:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x1938d3249300]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Nov 20, 2018 02:36:15.46 [3296:3314:1120/023615.463089:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+Nov 20, 2018 02:36:15.51 [3296:3314:1120/023615.507817:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+Nov 20, 2018 02:36:15.51 [3296:3314:1120/023615.518215:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+Nov 20, 2018 02:36:17.36 [3296:3314:1120/023617.366613:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+Nov 20, 2018 02:36:17.39 [3296:3314:1120/023617.392195:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+Nov 20, 2018 02:36:17.40 [3296:3314:1120/023617.402596:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+Nov 20, 2018 02:36:17.56 [3296:3314:1120/023617.567091:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+Nov 20, 2018 02:36:17.59 [3296:3314:1120/023617.596959:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+Nov 20, 2018 02:36:17.62 [3296:3314:1120/023617.622522:ERROR:ssl_client_socket_impl.cc(1050)] handshake failed; returned -1, SSL error code 1, net_error -101
+Nov 20, 2018 02:40:56.67 [3339:3339:1120/024056.672361:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x1938d2720100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Nov 20, 2018 02:40:56.70 [3339:3339:1120/024056.702914:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x1938d2720100]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Nov 20, 2018 02:41:22.96 [3339:3339:1120/024122.969097:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x1938d30b6700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Nov 20, 2018 02:41:22.98 [3339:3339:1120/024122.988758:ERROR:gles2_cmd_decoder_autogen.h(1606)] [.WebGL-0x1938d30b6700]GL ERROR :GL_INVALID_ENUM : glGetIntegerv: pname was GL_MAX_SAMPLES_ANGLE
+Nov 20, 2018 11:31:29.51 [3296:3314:1120/113129.513663:ERROR:connection_factory_impl.cc(396)] Failed to connect to MCS endpoint with error -106
+Nov 20, 2018 11:32:06.75 [3339:3339:1120/113206.750400:ERROR:gles2_cmd_decoder.cc(18047)] [.BrowserCompositor-0x19716a3d0c00]GL ERROR :GL_INVALID_OPERATION : glCreateAndConsumeTextureCHROMIUM: invalid mailbox name
+Nov 20, 2018 11:32:06.82 [3339:3339:1120/113206.756967:ERROR:gles2_cmd_decoder.cc(10168)] [.BrowserCompositor-0x19716a3d0c00]RENDER WARNING: texture bound to texture unit 0 is not renderable. It maybe non-power-of-2 and have incompatible texture filtering.
+Nov 20, 2018 11:32:18.77 [3296:3296:1120/113218.775046:ERROR:CONSOLE(6)] "Uncaught ReferenceError: gbar is not defined", source: https://clients5.google.com/pagead/drt/dn/ (6)
+Nov 20, 2018 11:32:46.38 [3296:3296:1120/113246.386707:ERROR:CONSOLE(6)] "Uncaught ReferenceError: gbar is not defined", source: https://clients5.google.com/pagead/drt/dn/ (6)
+
+Nov 20, 2018 14:21:36.41 NEW SESSION
+Nov 20, 2018 14:21:36.41 Created new window in existing browser session.
+Nov 20, 2018 14:29:40.60 Created new window in existing browser session.
+Nov 20, 2018 14:30:14.60 Created new window in existing browser session.
+Nov 20, 2018 16:58:11.31 Created new window in existing browser session.
+Nov 20, 2018 16:59:51.59 Created new window in existing browser session.
+Nov 20, 2018 17:00:15.35 Created new window in existing browser session.
+
+Nov 20, 2018 20:14:25.13 NEW SESSION
+Nov 20, 2018 20:14:25.13 Created new window in existing browser session.
+Nov 20, 2018 20:24:59.20 Created new window in existing browser session.

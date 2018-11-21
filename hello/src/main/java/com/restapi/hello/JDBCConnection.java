@@ -30,13 +30,13 @@ public class JDBCConnection {
 			Student s = new Student();
 			s.setRollNo(rs.getInt(1));
 			s.setName(rs.getString(2));
-			
 			s.setPhy(rs.getFloat(3));
 			s.setChem(rs.getFloat(4));
 			s.setMaths(rs.getFloat(5));
 			s.setImgUrl(rs.getString(6));
 			s.setTotalMarks(rs.getFloat(3)+rs.getFloat(4)+rs.getFloat(5));
 			s.setGrade(rs.getString(7));
+			s.setDob(rs.getString(8));
 			return s;
 		}
 		else
@@ -45,7 +45,7 @@ public class JDBCConnection {
 	
 	public String addDetails(Student s) throws SQLException {
 		try {
-		String query = "Insert into student_info VALUES("+s.getRollNo()+",\""+s.getName()+"\","+s.getPhy()+","+s.getChem()+","+s.getMaths()+",\""+s.getImgUrl()+"\""+",\""+s.getGrade()+"\")";
+		String query = "Insert into student_info VALUES("+s.getRollNo()+",\""+s.getName()+"\","+s.getPhy()+","+s.getChem()+","+s.getMaths()+",\""+s.getImgUrl()+"\""+",\""+s.getGrade()+"\", \""+s.getDob()+"\")";
 		System.out.println(query);
 		st.executeUpdate(query);
 		return "success";
@@ -58,7 +58,7 @@ public class JDBCConnection {
 	
 	public String updateDetails(Student s) throws SQLException {
 		try { 
-		String query = "UPDATE student_info SET name = \""+s.getName()+"\","+" phy="+s.getPhy()+","+" chem="+s.getChem()+", maths="+s.getMaths()+", grade="+s.getGrade()+", imgUrl=\""+s.getImgUrl()+"\" where roll="+s.getRollNo();
+		String query = "UPDATE student_info SET name = \""+s.getName()+"\","+" phy="+s.getPhy()+","+" chem="+s.getChem()+", maths="+s.getMaths()+", grade=\""+s.getGrade()+"\", imgUrl=\""+s.getImgUrl()+"\" where roll="+s.getRollNo();
 		System.out.println(query);
 		st.executeUpdate(query);
 		return "success";
@@ -91,6 +91,7 @@ public class JDBCConnection {
 				s.setTotalMarks(rs.getFloat(3)+rs.getFloat(4)+rs.getFloat(5));
 				s.setImgUrl(rs.getString(6));
 				s.setGrade(rs.getString(7));
+				s.setDob(rs.getString(8));
 				sl.add(s);
 			}
 			return sl;

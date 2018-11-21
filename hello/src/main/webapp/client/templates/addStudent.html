@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" class="next-head">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    <!-- <link rel="stylesheet" href="../css/bootstrap.css" class="next-head"> -->
+    <link rel="stylesheet" href="../css/main.css" class="next-head">
+    <link href="https://fonts.googleapis.com/css?family=Bellefair|Montserrat|Lato" rel="stylesheet" class="next-head">
+    <script  src="../js/lib/require.js"></script>
+    <title>Student Records</title>
+</head>
+<body>
+  <div class="container" > 
+    <!-- <h3 id="header" align="center">Welcome to Student Records</h3>  -->
+    <p>
+    <div id="homepage" align="center">
+    <a href="home.html">Home</a>
+  </div>
+</p>
+
+    <form id="formDetails" name="formDetails" action="" method="post" enctype="multipart/form-data" autocomplete="off">
+      <h3> Add Student </h3>
+      <fieldset>
+        Name: <input placeholder="Your name" name="name" type="text" tabindex="1" required autofocus id="name" required>
+      </fieldset>
+      <fieldset>
+        Roll: <input placeholder="Your Roll Number" name="roll" type="text" tabindex="1" required id="roll" required>
+      </fieldset>
+      <fieldset>
+        Date Of Birth: <p><input  name="dob" type="date" tabindex="4" required id="dob" required></p>
+      </fieldset>
+      <fieldset>
+        Phy: <input placeholder="Physics" name="phy" type="text" tabindex="3" required id="phy" required>
+      </fieldset>
+      <fieldset>
+        Chem: <input placeholder="Chemistry" name="chem" type="text" tabindex="4" required id="chem" required>
+      </fieldset>
+      <fieldset>
+        Maths: <input placeholder="Maths" name="maths" type="text" tabindex="4" required id="maths" required>
+      </fieldset>
+      
+       <fieldset>
+        <!-- <input placeholder="Image Url" type="text" tabindex="4" required id="imgUrl"> -->
+        <input type="file" id="imageUrl" name="imageUrl"/>
+      </fieldset>
+
+      <fieldset>
+        
+      </fieldset>
+      <div class="success-data">
+    
+    </div>
+    <div class="failure-data">
+    
+    </div>
+    <button name="submit" type="submit" id="form-submit" data-submit="...Sending">Submit</button>
+    </form>
+
+  </div>
+  <!-- <div id="details" align="center">
+    <a href="dispDetails.html">Display Each Student Details</a>
+  </div>
+
+  <div id="details" align="center">
+    <a href="showAllRecords.html" target="blank">Display All Student Details</a>
+  </div> -->
+  
+  <script type="text/javascript">
+        require.config({
+            baseUrl : '../js',
+            paths : {
+                // all versioning paths alias here since it shouldn't be cached
+                'main' : 'index',
+                // 'sections/search/main' : 'sections/search/main-v27',
+                'jquery' : 'lib/jquery',
+                'handlebars' : 'lib/handlebars',
+                'slick' : 'lib/slick/slick/slick'
+            }
+        });
+        require(['main','slick'], function(main,slick){
+            //main is loaded, probably don't need to do anything here..
+        });
+    
+  </script>
+</body>
+</html>

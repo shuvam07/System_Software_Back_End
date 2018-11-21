@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This web.xml file is not required when using Servlet 3.0 container,
+     see implementation details http://jersey.java.net/nonav/documentation/latest/jax-rs.html -->
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>example</servlet-name>
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+        <init-param>
+            <param-name>jersey.config.server.provider.packages</param-name>
+            <param-value>example.view;</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>example</servlet-name>
+        <url-pattern>/rest/*</url-pattern>
+    </servlet-mapping>
+    
+	 <servlet>  
+        <servlet-name>viewStudent</servlet-name>  
+        <servlet-class>example.view.viewStudent</servlet-class>
+        <load-on-startup>2</load-on-startup>  
+    </servlet>  
+    <servlet-mapping>  
+        <servlet-name>viewStudent</servlet-name>  
+        <url-pattern>/viewStudent</url-pattern>  
+    </servlet-mapping>  
+    
+    <servlet>
+        <servlet-name>student</servlet-name>
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+        <init-param>
+            <param-name>jersey.config.server.provider.packages</param-name>
+            <param-value>core.view</param-value>
+        </init-param>
+        <init-param>
+            <param-name>jersey.config.server.provider.classnames</param-name>
+            <param-value>org.glassfish.jersey.filter.LoggingFilter;
+                         org.glassfish.jersey.media.multipart.MultiPartFeature</param-value>
+        </init-param>
+        <load-on-startup>3</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>student</servlet-name>
+        <url-pattern>/stud/*</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+    	<servlet-name>uploadServlet</servlet-name>
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+        <init-param>
+            <param-name>jersey.config.server.provider.packages</param-name>
+            <param-value>example.upload;</param-value>
+        </init-param>
+        <init-param>
+            <param-name>jersey.config.server.provider.classnames</param-name>
+            <param-value>org.glassfish.jersey.filter.LoggingFilter;
+                         org.glassfish.jersey.media.multipart.MultiPartFeature</param-value>
+        </init-param>
+        <load-on-startup>4</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>uploadServlet</servlet-name>
+        <url-pattern>/upl/*</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Chat -->
+  	<filter>
+        <filter-name>nocachefilter</filter-name>
+        <filter-class>
+           chat.filter.NocacheFilter
+        </filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>nocachefilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    
+     <context-param>
+        <param-name>BaseUrl</param-name>
+          <param-value>http://172.16.129.131:8080/dt2018105/</param-value>
+    </context-param>
+    <context-param>
+        <param-name>WsUrl</param-name>
+          <param-value>ws://172.16.129.131:8080/dt2018105/chat</param-value>
+    </context-param>
+    
+</web-app>
+

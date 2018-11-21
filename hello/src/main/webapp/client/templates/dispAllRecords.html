@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Records</title>
+	<meta charset="utf-8" class="next-head">
+    
+    <link rel="stylesheet" href="../css/bootstrap.css" class="next-head">
+    <link rel="stylesheet" href="../css/carousel.css" class="next-head">
+    <link rel="stylesheet" href="../css/main.css" class="next-head">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../js/lib/slick/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../js/lib/slick/slick/slick-theme.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Bellefair|Montserrat|Lato" rel="stylesheet" class="next-head">
+    <script  src="../js/lib/require.js"></script>
+    <!-- <script  src="../js/lib/jquery.js"></script> -->
+    <!-- <script  src="../js/lib/slick/slick/slick.js"></script> -->
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+
+
+<body>
+</head>
+<style>
+</style>
+<body>
+	<div class = "rollFields">
+
+  	  <fieldset>
+        <label for="From" class="col-sm-2 col-form-label">From:</label>
+        <input placeholder="Student Roll Number" type="text" tabindex="1" required autofocus id="fromRoll">
+      </fieldset>
+
+      <fieldset>
+        <label for="From" class="col-sm-2 col-form-label">To:</label>
+        <input placeholder="Student Roll Number" type="text" tabindex="1" required autofocus id="toRoll">
+      </fieldset>
+    
+
+      <fieldset>
+        <label for="From" class="col-sm-2 col-form-label">Sort By :</label> 
+        <select id="sortDropDown">
+          <option value="name">Name</option>
+          <option value="rollNo">Roll</option>
+          <option value="grade">Grade</option>
+          <option value="totalMarks">Total Marks</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <button name="submitRoll" type="submit" id="submitRoll" data-submit="...Sending">Submit</button>
+      </fieldset>
+  		<div id="homepage" align="center">
+        <a href="home.html">Home</a>
+      </div>
+  	</div>
+  	<div class = "recordContainer">
+  	</div>
+
+    <div class = "carousel">
+      
+    </div>
+  	<script type="text/javascript">
+          require.config({
+              baseUrl : '../js',
+              paths : {
+                  // all versioning paths alias here since it shouldn't be cached
+                  'main' : 'index',
+                  // 'sections/search/main' : 'sections/search/main-v27',
+                  'jquery' : 'lib/jquery',
+                  'handlebars' : 'lib/handlebars',
+                  'slick' : 'lib/slick/slick/slick'
+              }
+          });
+          require(['main','slick'], function(main,slick){
+              //main is loaded, probably don't need to do anything here..
+          });
+      
+    </script>
+</body>
+</html>

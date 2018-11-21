@@ -92,6 +92,7 @@ public class StudentResource {
 			@FormDataParam("imageUrl") FormDataContentDisposition fileDetail,
 			@FormDataParam("name") String name,
 			@FormDataParam("roll") int roll,
+			@FormDataParam("dob") String dob,
 			@FormDataParam("phy") float phy,
 			@FormDataParam("chem") float chem,
 			@FormDataParam("maths") float maths
@@ -100,13 +101,15 @@ public class StudentResource {
 		Student s = new Student();
 		s.setName(name);
 		s.setRollNo(roll);
+		s.setDob(dob);
 		s.setPhy(phy);
 		s.setChem(chem);
 		s.setMaths(maths);
 		s.setGrade(calcGrade(phy,chem,maths));
-		String relPath = "/client/images/"+fileDetail.getFileName();
-		String uploadedFileLocation="/home/shuvambosana/Desktop/System_Software/client/images/"+fileDetail.getFileName();
+		String relPath = "/hello/client/images/"+fileDetail.getFileName();
+		String uploadedFileLocation="/home/shuvambosana/Desktop/workspace_iiitb/hello/src/main/webapp/client/images/"+fileDetail.getFileName();
 		s.setImgUrl(relPath);
+		System.out.println(s.toString());
 		writeToFile(uploadedInputStream, uploadedFileLocation);
 		JDBCConnection db = new JDBCConnection();
 		db.connect();
@@ -162,7 +165,7 @@ public class StudentResource {
 		
 		try {
 			if(uploadedInputStream == null) {
-				System.out.println("null hai");
+//				System.out.println("null hai");
 				System.out.println(uploadedInputStream);
 			}
 			

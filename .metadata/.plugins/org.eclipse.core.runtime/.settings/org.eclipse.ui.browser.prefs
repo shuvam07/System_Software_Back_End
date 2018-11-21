@@ -1,4 +1,4 @@
 browser-choice=1
-browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="1">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n<external location\="/usr/bin/google-chrome" name\="Chrome"/>\n</web-browsers>
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="2">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n<external location\="/usr/bin/google-chrome" name\="Chrome"/>\n</web-browsers>
 eclipse.preferences.version=1
-internalWebBrowserHistory=http\://localhost\:8080/hello/webapi/myresource|*|http\://localhost\:8080/hello/|*|
+internalWebBrowserHistory=file\:///home/shuvambosana/Desktop/workspace_iiitb/Project/Enterprise-IIITB-master/dt2018105/src/main/webapp/img/Prof%20K%20V%20Dinesha.jpg|*|file\:/home/shuvambosana/Desktop/workspace_iiitb/Project/Enterprise-IIITB-master/dt2018105/src/main/webapp/img/Prof%20K%20V%20Dinesha.jpg|*|http\://localhost\:8080/hello/webapi/myresource|*|http\://localhost\:8080/hello/|*|

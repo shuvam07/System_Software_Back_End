@@ -7,6 +7,7 @@ public class Student {
 	
 	private int rollNo;
 	private String name;
+	private String dob;
 	private float phy;
 	private float chem;
 	private float maths;
@@ -52,6 +53,13 @@ public class Student {
 	/**
 	 * @return the phy
 	 */
+	public String getDob() {
+		return dob;
+	}
+	public void setDob(String dob) {
+		this.dob = dob;
+	}
+	
 	public float getPhy() {
 		return phy;
 	}
@@ -94,17 +102,21 @@ public class Student {
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
-	@Override
-	public String toString() {
-		return "Student [rollNo=" + rollNo + ", name=" + name + ", phy=" + phy + ", chem=" + chem + ", maths=" + maths
-				+ ", totalMarks=" + totalMarks + ", imgUrl=" + imgUrl + "]";
-	}
+	
 	
 	/**
 	 * @param totalMarks the totalMarks to set
 	 */
 	public void setTotalMarks(float totalMarks) {
 		this.totalMarks = totalMarks;
+	}
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		return "Student [rollNo=" + rollNo + ", name=" + name + ", dob=" + dob + ", phy=" + phy + ", chem=" + chem
+				+ ", maths=" + maths + ", totalMarks=" + totalMarks + ", imgUrl=" + imgUrl + ", grade=" + grade + "]";
 	}
 	public String getImgUrl() {
 		return imgUrl;

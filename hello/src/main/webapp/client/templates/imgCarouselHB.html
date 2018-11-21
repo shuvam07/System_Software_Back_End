@@ -1,0 +1,19 @@
+<div class="imgCar">
+  {{#each result}}  
+      <div> 
+       <p><img class="pet-photo" src={{this.imgUrl}} style="width:150px;height:150px"></p>
+       <p><label for="Roll" name="Roll">Roll: {{this.rollNo}}</label></p>
+       <p><label for="Grade" name="Grade">Grade: {{this.grade}}</label></p>
+     </div>
+  {{/each}}
+    
+</div>
+<script type="text/javascript">
+  $('.imgCar').slick({
+      slidesToShow: 3,
+         slidesToScroll: 1,
+         autoplaySpeed: 5000,
+        arrows : true,
+        dots : true
+      });
+</script>

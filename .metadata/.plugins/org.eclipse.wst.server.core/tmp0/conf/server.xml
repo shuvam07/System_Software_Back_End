@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/home/shuvambosana/Desktop/workspace_iiitb/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/shuvambosana/Desktop/workspace_iiitb/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/hello" path="/hello" reloadable="true" source="org.eclipse.jst.jee.server:hello"/></Host>
+      <Context docBase="/home/shuvambosana/Desktop/workspace_iiitb/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/shuvambosana/Desktop/workspace_iiitb/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/hello" path="/hello" reloadable="true" source="org.eclipse.jst.jee.server:hello"/><Context docBase="/home/shuvambosana/Desktop/workspace_iiitb/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/login" path="/login" reloadable="true" source="org.eclipse.jst.jee.server:login"/><Context docBase="/home/shuvambosana/Desktop/workspace_iiitb/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/dt2018105" path="/dt2018105" reloadable="true" source="org.eclipse.jst.jee.server:dt2018105"/></Host>
     </Engine>
   </Service>
 </Server>

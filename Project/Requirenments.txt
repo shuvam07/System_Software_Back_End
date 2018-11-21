@@ -1,0 +1,12 @@
+
+Tomcat 8.0/8.5
+Eclipse Photon Release 4.8.0 (Java EE for Web Developer)
+Mysql 5.7.24
+Bootstrap v4.1.3
+Jquery 3.3.1
+JDK 1.8
+MySql Connector 5.1.39
+
+
+All other dependencies should get automatically included with project as maven dependencies.
+
